@@ -1,0 +1,91 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body {
+    background-color: #ffffff;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* ===== HEADER / HOME ===== */
+header {
+    background-color: #800020;
+    /* burgundy */
+    color: #fff;
+    padding: 40px 20px;
+    text-align: justify;
+    /* HOME = justified */
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* ===== SECTION ===== */
+section {
+    padding: 40px 20px;
+}
+
+/* ===== CONTAINERS (DEFAULT JUSTIFIED) ===== */
+.container {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    text-align: justify;
+    /* About & Contact */
+}
+
+/* ===== ABOUT ===== */
+.info h2 {
+    margin-bottom: 10px;
+}
+
+/* ===== ACTIVITIES (CENTERED ONLY) ===== */
+.projects {
+    text-align: center;
+    /* ONLY THIS */
+}
+
+.projects h2 {
+    margin-bottom: 15px;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects li {
+    margin: 10px 0;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #800020;
+    font-weight: bold;
+}
+
+.projects a:hover {
+    text-decoration: underline;
+}
+
+/* ===== CONTACT ===== */
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+/* ===== FOOTER (CENTERED) ===== */
+footer {
+    background-color: #A45A52;
+    /* redwood */
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
+    /* FOOTER = centered */
+}
