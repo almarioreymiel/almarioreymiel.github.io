@@ -6,9 +6,9 @@
 }
 
 :root {
-  --deep-navy: #0B2D72;   /* primary color */
-  --bright-cyan: #0992C2; /* secondary / highlights */
-  --electric-teal: #0AC4E0; /* hover / accent */
+  --deep-navy: #0B2D72;
+  --bright-cyan: #0992C2;
+  --electric-teal: #0AC4E0;
 }
 
 html {
