@@ -237,17 +237,99 @@ footer {
 }
 
 @media (max-width: 900px) {
+
   header {
-    padding: 24px 40px;
+    padding: 20px 40px;
   }
 
   .hero {
     grid-template-columns: 1fr;
     text-align: center;
+    padding: 60px 40px;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .blob {
+    width: 250px;
   }
 
   .about,
+  .contact,
+  .projects {
+    padding: 80px 40px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  nav a {
+    margin: 5px 10px;
+    font-size: 14px;
+  }
+
+  .hero {
+    padding: 40px 20px;
+  }
+
+  .hero-text h1 {
+    font-size: 32px;
+  }
+
+  .hero-text p {
+    font-size: 16px;
+  }
+
+  .blob {
+    width: 200px;
+  }
+
+  .about {
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+
+  .projects {
+    padding: 60px 20px;
+  }
+
+  .projects-grid {
+    gap: 20px;
+  }
+
+  .project-card {
+    padding: 20px;
+  }
+
   .contact {
-    padding: 80px 32px;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .contact p {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 14px;
   }
 }
